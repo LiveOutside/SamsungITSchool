@@ -1,0 +1,36 @@
+package Animals;
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+      class Animals {
+        Scanner in = new Scanner(System.in);
+        class Cat {
+            double height;//double height = in.nextDouble();
+            {
+                height = 0.89;
+                System.out.println("cat_height=" + height + "m" + " ");
+            }
+            double weight;//double weight = in.nextDouble();
+            {
+                weight = 3.74;
+                System.out.println("cat_weight=" + weight + "kg");
+            }
+        }
+        class Dog {
+            double height;
+            {
+                height = 1.34;
+                System.out.println("dog_height=" + height + "m" + " ");
+            }
+            double weight;
+            {
+                weight = 9.23;
+                System.out.println("dog_weight=" + weight + "kg");
+            }
+        }
+    }
+    }
+}
